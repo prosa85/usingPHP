@@ -4,12 +4,12 @@ class classtest{
     {
         return ("testing n1");
     }
-    
+
     function n2($vtest)
     {
         return("hola".$vtest);
     }
-    
+
 }
 $ob1= new classtest();
 var_dump($ob1);

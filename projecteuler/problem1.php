@@ -6,7 +6,7 @@ for($i=1; $i<=999; $i++){
       }
     elseif($i % 3==0){
        array_push($num,$i);
-        
+
         }
 }
 echo array_sum($num);
